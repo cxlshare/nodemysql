@@ -31,7 +31,8 @@ app.use(
 );
 
 app.get('/',function(req,res){
-    res.send('Welcome');
+    // res.send('<h1 class="title">Welcome</h1><p>Welcome to sample node js application with mysql. Click <a href="/api/user">here</a> to perform sample CRUD actions. </p>');
+    res.render("index")
 });
 
 
